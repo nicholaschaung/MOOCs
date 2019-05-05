@@ -8,6 +8,7 @@ Data for the 10299 observations (7352 from the training data set and 2947 from t
 - X_test.txt
 - y_test.txt
 - subject_test.txt
+- activity_labels.txt
 
 Only data tagged as "mean()" or "std()" in the original data was imported and merged per the assignment instructions, "Extracts only the measurements on the mean and standard deviation for each measurement."
 
