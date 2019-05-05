@@ -58,7 +58,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 Data identifying which of the 30 subjects the measurement was from is included in the variable "subject". Its range is from 1 to 30.
 
-Finally, all measurements were taken during one of six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. This is indicated in the variable "activity".
+All measurements were taken during one of six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. This is indicated in the variable "activity".
+
+Finally, row is identified as subject.activity; e.g., 30.6 indicates subject 30 during activity code 6 (the activity corresponding to the activity code can be determined by looking at the variable "activity").
 
 ### Final human activity data
 - "tBodyAcc.mean...X" 
